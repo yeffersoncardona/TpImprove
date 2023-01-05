@@ -1,0 +1,38 @@
+{
+  "name": "templateadmin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export -o dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-browser": "^2.29.0",
+    "@azure/msal-react": "^1.4.8",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.8",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.2",
+    "chart.js": "^4.1.1",
+    "faker": "^6.6.6",
+    "next": "^12.3.1",
+    "react-chartjs-2": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-widgets": "^5.8.4",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.6.9"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.21"
+  }
+}

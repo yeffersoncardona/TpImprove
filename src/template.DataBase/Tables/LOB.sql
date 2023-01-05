@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[LOB]
+(
+	[IdLOB] INT NOT NULL PRIMARY KEY, 
+    [LOBName] VARCHAR(255) NOT NULL, 
+    [IdClient] INT NOT NULL
+)
